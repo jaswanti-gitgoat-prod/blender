@@ -1,0 +1,84 @@
+{
+  "sca_findings": [
+    {
+      "id": "SCA-001",
+      "package_name": "log4j-core",
+      "version": "2.13.3",
+      "vulnerability": "CVE-2021-44228",
+      "severity": "Critical",
+      "description": "Remote code execution vulnerability in Apache Log4j."
+    },
+    {
+      "id": "SCA-002",
+      "package_name": "jquery",
+      "version": "1.9.1",
+      "vulnerability": "CVE-2020-11023",
+      "severity": "High",
+      "description": "Cross-site scripting vulnerability in jQuery."
+    },
+    {
+      "id": "SCA-003",
+      "package_name": "lodash",
+      "version": "4.17.15",
+      "vulnerability": "CVE-2021-23337",
+      "severity": "Medium",
+      "description": "Prototype pollution in lodash."
+    },
+    {
+      "id": "SCA-004",
+      "package_name": "axios",
+      "version": "0.21.1",
+      "vulnerability": "CVE-2021-3749",
+      "severity": "High",
+      "description": "Server-side request forgery (SSRF) vulnerability in Axios."
+    },
+    {
+      "id": "SCA-005",
+      "package_name": "minimist",
+      "version": "1.2.0",
+      "vulnerability": "CVE-2020-7598",
+      "severity": "Medium",
+      "description": "Prototype pollution in minimist."
+    },
+    {
+      "id": "SCA-006",
+      "package_name": "express",
+      "version": "4.17.1",
+      "vulnerability": "CVE-2021-23444",
+      "severity": "Low",
+      "description": "Improper input validation in Express."
+    },
+    {
+      "id": "SCA-007",
+      "package_name": "yargs-parser",
+      "version": "13.1.2",
+      "vulnerability": "CVE-2020-7608",
+      "severity": "Medium",
+      "description": "Prototype pollution in yargs-parser."
+    },
+    {
+      "id": "SCA-008",
+      "package_name": "serialize-javascript",
+      "version": "2.1.1",
+      "vulnerability": "CVE-2019-16769",
+      "severity": "High",
+      "description": "Cross-site scripting vulnerability in serialize-javascript."
+    },
+    {
+      "id": "SCA-009",
+      "package_name": "markdown-it",
+      "version": "10.0.0",
+      "vulnerability": "CVE-2020-7693",
+      "severity": "Medium",
+      "description": "Cross-site scripting vulnerability in markdown-it."
+    },
+    {
+      "id": "SCA-010",
+      "package_name": "color-string",
+      "version": "1.5.3",
+      "vulnerability": "CVE-2021-29060",
+      "severity": "Low",
+      "description": "Denial of service (DoS) vulnerability in color-string."
+    }
+  ]
+}
