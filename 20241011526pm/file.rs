@@ -1,4 +1,4 @@
 use std::env;
 
 // ruleid: args
-let args = env::args();
+let command_line_arguments: Vec<String> = env::args().collect();
